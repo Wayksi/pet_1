@@ -22,6 +22,8 @@
 				href="css/libs.min.css">
 	<link rel="stylesheet"
 				href="css/style.min.css">
+	<link rel="stylesheet" 
+				href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 	<title>Easy-webdev-startpack v3.0</title>
 </head>
 
@@ -100,13 +102,63 @@
         </div>
     </div>
 </section>
-		
+		<section class="popular container">
+    <div class="popular__wrapper">
+        <span class="popular__description title__description">по версии отдыхающих</span>
+        <h2 class="popular__title title">Популярные направления</h2>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="popular__image-wrapper">
+                        <img class="popular__image" src="../../img/popular_lake_mobilejpg.jpg" width="285" height="400" alt="Озеро возле гор">
+                        <p class="popular__star-wrapper">
+                            <span class="popular__star"></span>
+                            <span class="popular__star-number">4.9</span>
+                        </p>
+                        <p class="popular__name-wrapper">
+                            <span class="popular__name">Озеро возле гор</span>
+                            <span class="popular__price">480 $</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="popular__image-wrapper">
+                        <img class="popular__image" src="../../img/popular__night_mobile.jpg" width="285" height="400" alt="Озеро возле гор">
+                        <p class="popular__star-wrapper">
+                            <span class="popular__star"></span>
+                            <span class="popular__star-number">4.9</span>
+                        </p>
+                        <p class="popular__name-wrapper">
+                            <span class="popular__name">Ночь в горах</span>
+                            <span class="popular__price">500 $</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="popular__image-wrapper">
+                        <img class="popular__image" src="../../img/popular_yoga_mobile.png" width="285" height="400" alt="Озеро возле гор">
+                        <p class="popular__star-wrapper">
+                            <span class="popular__star"></span>
+                            <span class="popular__star-number">4.9</span>
+                        </p>
+                        <p class="popular__name-wrapper">
+                            <span class="popular__name">Йога в горах</span>
+                            <span class="popular__price">230 $</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="popular__button button">Рейтинг направлений</button>
+    </div>
+</section>
 	</main>
 	<footer class="footer"></footer>
 
 	<script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
 
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 </body>
 
 </html>
