@@ -1,0 +1,43 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 298px;
+    padding-bottom: 50px;
+    background-color: #698591;
+    background-image: url("../../img/Rectangle.jpg");
+    min-height: 600px;
+
+    @media (min-width: 1920px) {
+        padding-top: 551px;
+        padding-bottom: 82px;
+        background-image: url("../../img/hero-bg-desktop.jpg");
+    }
+}
+
+.hero__title {
+    margin-bottom: 32px;
+    font-size: 28px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #fdfdfd;
+
+    @media (min-width: 1920px) {
+        margin-bottom: 41px;
+        font-size: 50px;
+    }
+}
+
+.hero__form {
+    display: flex;
+    align-items: start;
+    background-color: transparent; 
+    border-radius: 10px;
+    color: #fdfdfd;
+    gap: 24px;
+
+    @media (min-width: 1920px) {
+        padding: 40px 42px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+}

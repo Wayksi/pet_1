@@ -1,0 +1,15 @@
+.main-header {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 44px;
+
+    @media (min-width: 1920px) {
+        min-height: 72px;
+        padding-top: 16px;
+    }
+}

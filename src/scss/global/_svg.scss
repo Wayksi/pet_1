@@ -1,0 +1,9 @@
+.--svg__menu-icon,.--svg__menu-icon-before::before,.--svg__menu-icon-after::after{
+    background-image: url("data:image/svg+xml;charset=utf8, %3Csvg width='22' height='18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M.5 1.5A1.5 1.5 0 012 0h18a1.5 1.5 0 010 3H2A1.5 1.5 0 01.5 1.5zM.5 9A1.5 1.5 0 012 7.5h18a1.5 1.5 0 010 3H2A1.5 1.5 0 01.5 9zm9 7.5A1.5 1.5 0 0111 15h9a1.5 1.5 0 110 3h-9a1.5 1.5 0 01-1.5-1.5z' fill='%23fff'/%3E%3C/svg%3E");
+}
+.--svg__menu-icon-before::before {
+    content:'';
+}
+.--svg__menu-icon-after::after {
+    content:'';
+}

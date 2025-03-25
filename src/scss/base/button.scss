@@ -1,0 +1,18 @@
+.button {
+    box-sizing: border-box;
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: .02em;
+    color: #fdfdfd;
+    background-color: #1a3e3e;
+    border-radius: 4px;
+    border: none;
+
+    &:hover {
+        padding: 11px 23px;
+        color: #1a3e3e;
+        background-color: #fdfdfd;
+        border: 1px solid #1a3e3e;
+    }
+}
